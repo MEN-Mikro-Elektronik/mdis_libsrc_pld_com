@@ -23,7 +23,9 @@ MAK_NAME=pld_sw
 
 MAK_LIBS=
 
-MAK_SWITCH=$(SW_PREFIX)PLD_SW
+MAK_SWITCH=$(SW_PREFIX)PLD_SW \
+		   $(SW_PREFIX)MAC_MEM_MAPPED
+
 
 MAK_INCL=$(MEN_MOD_DIR)/pld_var.h \
          $(MEN_INC_DIR)/men_typs.h \
