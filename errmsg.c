@@ -16,21 +16,6 @@
  *  
  * PLD_ErrorMsg - Return PLD error message string
  *  
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: errmsg.c,v $
- * Revision 1.4  1999/04/26 15:14:33  Schmidt
- * includes added to support different variants
- *
- * Revision 1.3  1998/10/08 15:02:26  see
- * PLD_ErrorMsg: return string instead static *msg
- *
- * Revision 1.2  1998/06/02 09:27:22  see
- * RCSid type changed from char* to char[]
- *
- * Revision 1.1  1998/02/25 09:48:00  Schmidt
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 1998 by MEN mikro elektronik GmbH, Nuremberg, Germany 
  ******************************************************************************/

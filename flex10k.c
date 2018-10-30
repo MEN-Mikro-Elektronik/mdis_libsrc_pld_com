@@ -46,31 +46,6 @@
  * PLD_FLEX10K_LoadCallBk - Loading FLEX 10K with binary data (callback i/o) 
  * PLD_FLEX10K_LoadDirect - Loading FLEX 10K with binary data (direct access) 
  *  
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: flex10k.c,v $
- * Revision 1.6  2008/09/05 15:37:08  ufranke
- * R: diab compiler warning
- * M: cosmetics
- *
- * Revision 1.5  1999/07/21 17:43:31  Franke
- * cosmetics
- *
- * Revision 1.4  1999/04/26 15:14:39  Schmidt
- * includes added to support different variants
- *
- * Revision 1.3  1998/10/26 14:17:05  see
- * loader functions: more header info added
- * file intro added
- * ACCPARAMS: bit masks must be u_int16
- * ACCPARAMS: ma stored as structure instead ptr
- *
- * Revision 1.2  1998/06/02 09:27:18  see
- * global IdentString removed, returned directly from PLD_FLEX10K_Identify
- *
- * Revision 1.1  1998/02/25 09:48:05  Schmidt
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 1998..2008 by MEN mikro elektronik GmbH, Nuremberg, Germany 
  ******************************************************************************/
