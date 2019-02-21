@@ -47,7 +47,7 @@
  * PLD_FLEX10K_LoadDirect - Loading FLEX 10K with binary data (direct access) 
  *  
  *---------------------------------------------------------------------------
- * (c) Copyright 1998..2008 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

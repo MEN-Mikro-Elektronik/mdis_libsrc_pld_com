@@ -6,17 +6,8 @@
 #  
 #    Description: makefile descriptor for PLD library (all sources)
 #                      
-#---------------------------------[ History ]---------------------------------
-#
-#   $Log: library.mak,v $
-#   Revision 1.2  1999/04/26 15:14:46  Schmidt
-#   includes added, MAK_OPTIM removed
-#
-#   Revision 1.1  1999/04/14 15:33:15  kp
-#   Initial Revision
-#
 #-----------------------------------------------------------------------------
-#   (c) Copyright 1998 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+#   Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
 #*****************************************************************************
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
