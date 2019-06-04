@@ -1,8 +1,6 @@
 #**************************  M a k e f i l e ********************************
 #  
 #         Author: ds
-#          $Date: 1999/04/26 15:14:51 $
-#      $Revision: 1.1 $
 #  
 #    Description: makefile descriptor for PLD library (all sources)
 #
@@ -25,10 +23,15 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 MAK_NAME=pld_sw
+# the next line is updated during the MDIS installation
+STAMPED_REVISION="mdis_libsrc_pld_com_01_45-0-g67ee8e5-dirty_2019-02-21"
+
+DEF_REVISION=MAK_REVISION=$(STAMPED_REVISION)
 
 MAK_LIBS=
 
 MAK_SWITCH=$(SW_PREFIX)PLD_SW \
+		$(SW_PREFIX)$(DEF_REVISION) \
 		   $(SW_PREFIX)MAC_MEM_MAPPED
 
 

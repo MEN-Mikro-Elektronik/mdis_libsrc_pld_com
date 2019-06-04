@@ -4,8 +4,6 @@
  *      Project: PLD loader library
  *
  *       Author: see
- *        $Date: 2008/09/05 15:37:08 $
- *    $Revision: 1.6 $
  *
  *  Description: Loader for ALTERA FLEX 8000/10k PLD's
  *               (PS Passive Serial Interface)
@@ -64,7 +62,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
  
-static const char RCSid[]="PLD - FLEX10K Loader: $Id: flex10k.c,v 1.6 2008/09/05 15:37:08 ufranke Exp $";
 
 #include "pld_var.h"		/* defines variants */
 #include <MEN/men_typs.h>
@@ -72,6 +69,8 @@ static const char RCSid[]="PLD - FLEX10K Loader: $Id: flex10k.c,v 1.6 2008/09/05
 #include <MEN/oss.h>
 #include <MEN/maccess.h>
 #include <MEN/pld_load.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   DEFINES                             |
@@ -127,7 +126,7 @@ static void local_set_config(void *arg, u_int8 state);
  ****************************************************************************/
 char *PLD_FLEX10K_Identify( void )
 {
-	return( (char*)RCSid );
+	return( (char*)IdentString );
 }
 
 /*************************** PLD_FLEX10K_LoadCallBk ***************************

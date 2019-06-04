@@ -3,8 +3,6 @@
  *         Name: pld_var.h
  *
  *       Author: ds
- *        $Date: 1999/04/26 15:14:53 $
- *    $Revision: 1.1 $
  * 
  *  Description: PLD loader library defines for different variants
  *                      

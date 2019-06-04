@@ -4,8 +4,6 @@
  *      Project: PLD loader library
  *
  *       Author: see
- *        $Date: 1999/04/26 15:14:33 $
- *    $Revision: 1.4 $
  *
  *  Description: Return PLD Loader error message string
  *                      
@@ -34,7 +32,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
  
-static const char RCSid[]="$Header: /dd2/CVSR/COM/LIBSRC/PLD/COM/errmsg.c,v 1.4 1999/04/26 15:14:33 Schmidt Exp $";
 
 #include "pld_var.h"		/* defines variants */
 #include <MEN/men_typs.h>
